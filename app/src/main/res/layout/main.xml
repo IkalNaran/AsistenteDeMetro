@@ -70,9 +70,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="268dp"
+        android:onClick="presion"
         android:text="Login"
+        android:textColorLink="#673AB7"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:strokeColor="#E91E63" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
